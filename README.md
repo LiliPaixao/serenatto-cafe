@@ -25,14 +25,19 @@ Para rodar este projeto localmente, você precisará ter instalado:
 ```php
 // Exemplo de configuração no arquivo:
 $pdo = new PDO('mysql:host=localhost;dbname=serenatto', 'root', 'sua_senha');
-▶️ Como rodar o projeto
+
+```
+
+## ▶️ Como rodar o projeto
+
 Este projeto utiliza o servidor embutido do PHP, não sendo necessário instalar Apache ou Nginx separadamente.
-Abra o terminal na pasta raiz do projeto.
-Execute o seguinte comando para iniciar o servidor:
-code
-Bash
+
+1. Abra o terminal na pasta raiz do projeto.
+2. Execute o seguinte comando para iniciar o servidor:
+
+```bash
 php -S localhost:8080
-Abra o seu navegador e acesse:
-http://localhost:8080
+```
+
 Nota: Se a porta 8080 estiver ocupada, você pode alterar para outro número, como php -S localhost:8989.
 Desenvolvido por Liliane para fins de estudo.
